@@ -2,7 +2,7 @@ FROM openjdk
 
 ENV MCJE_HOME="/mcje" \
     DATA_PATH="/mcje/data" \
-    SERVER_PORT=25565
+    SERVER_PORT="25565/tcp"
 
 WORKDIR $MCJE_HOME
 
