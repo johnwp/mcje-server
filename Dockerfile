@@ -8,6 +8,7 @@ WORKDIR $MCJE_HOME
 
 COPY minecraft_server.1.18.1.jar $MCJE_HOME/minecraft_server.1.18.1.jar
 COPY eula.txt $MCJE_HOME/eula.txt
+COPY server.properties $MCJE_HOME/server.properties
 
 EXPOSE $SERVER_PORT
 VOLUME $DATA_PATH
